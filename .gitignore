@@ -4,9 +4,9 @@
 *.jar
 *.war
 *.ear
-/target
-/bin
 
+bin
+target
 .project
 .classpath
 .settings

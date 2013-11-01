@@ -18,9 +18,27 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<orientdb.version>1.5.1</orientdb.version>
 	</properties>
 
 	<dependencies>
+	
+		<dependency>
+			<groupId>com.orientechnologies</groupId>
+			<artifactId>orientdb-core</artifactId>
+			<version>${orientdb.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.orientechnologies</groupId>
+			<artifactId>orient-commons</artifactId>
+			<version>${orientdb.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.orientechnologies</groupId>
+			<artifactId>orientdb-client</artifactId>
+			<version>${orientdb.version}</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
