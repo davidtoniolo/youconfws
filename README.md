@@ -19,12 +19,14 @@ Edit your hosts (local DNS) file:
 Compile and run youconfws:
 
 	cd <your-local-path>/youconfws
+	mvn clean install
+	cd <your-local-path>/youconfws/ycws-webservice
 	mvn jetty:run
 
 
 Ready! Test the RESTful URLs in your browser, e.g. http://youconfws.development:8080/json/yc/event
 
-See all configured RESTful URLs in the web.xml file. 
+See all configured RESTful URLs in the web.xml file of ycws-webservice submodule.
 
 
 Open Source Software
