@@ -37,3 +37,4 @@ This project uses the following great libraries:
 [Apache Wicket](http://wicket.apache.org)
 [Apache Maven](http://maven.apache.org)
 [JUnit](http://junit.org)
+[OrientDB](https://github.com/orientechnologies/orientdb)
